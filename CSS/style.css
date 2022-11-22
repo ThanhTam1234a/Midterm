@@ -1,0 +1,435 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+}
+*{
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+
+.mid-header{    
+    background:transparent;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 999;
+    top:0; left:0; right:0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.container-header{ 
+    display: grid;
+    grid-template-columns:10% 70% 20%;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+ul.main-menu {
+    padding: 30px 0px;
+    margin-bottom: 0px;
+}
+
+.main-menu i a{
+    color: #e4b95b;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 15px;
+    line-height: 40px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    
+}
+
+.icon {
+    padding: 10px 20px;
+    margin: 20px 20px;
+}
+.icon i {
+    text-align: center;
+    padding: 10px;
+    color: #e4b95b;
+}
+.section-1{
+    margin-bottom: 0px;
+    float: left;
+    width: 100%;
+    
+}
+.header-product{
+    top: 120px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    background:none;
+    z-index: 2;
+    text-align: center; 
+    background: transparent;
+    margin: 0px;
+    position: absolute;
+    
+}
+.menu-product{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    
+    
+}
+.menu-product li {
+    padding-right: 6%;
+    white-space: normal;
+    list-style-type: none;
+    
+}
+.menu-product li a{
+    color: #e4b95b  ;
+    text-align: center;
+    text-decoration: none;
+    font: 400 14px/20px "Quicksand";
+}
+
+.icon{
+    padding: 10px;
+}
+.div-1 .picture{
+    width: auto;
+}
+.div-1 .picture img{
+    width: 100%;
+}
+.space{
+    height:50px;
+}
+.text{
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding: 30px;
+}
+.text h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.text button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    min-width: 170px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    border-radius: 25px;
+    color: #fff;
+    line-height: 34px;
+    padding: 0 35px;
+}
+
+.backgroun{
+    background-image: url('/IMG/bg-section.webp');
+    background-repeat: no-repeat;
+    height: 982px;
+    width: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-title{
+    position: relative;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.text-title  h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: #e4b95b;
+    padding: 20px 20px;
+}
+.text-title p {
+    font-size: 25px;
+    max-width: 660px;
+    color:#fff;
+    padding: auto;
+    margin: auto;
+    
+}
+.title-product{
+   color: #e4b95b;
+   font-weight: 700;
+   font-size: 20px;
+   white-space: nowrap;
+   text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    text-decoration: none;
+    left: -20px;
+   
+}
+
+.product-price{
+    color: #e4b95b;
+    font-size: 18px;
+    vertical-align: bottom;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.content {
+    border-top: 2px dashed #fff;
+    line-height: 22px;
+    padding-top: 10px;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.content p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center !important;
+    
+}
+.col-md-6 {
+    
+    max-width: 50%;
+}
+.text-center button {
+    border: 2px solid #fff;
+    min-width: 170px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: transparent;
+    line-height: 34px;
+    color: #fff;
+    padding: 0 35px;
+}
+.pack-title {
+    text-align: center;
+}
+.pack-title  h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 4px;
+    line-height: 22px;
+   
+    
+}
+.product-pack{
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.pack-item{
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.owl-carousel{
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: 1110px;
+    position: relative;
+}
+.owl-item-activi{
+    padding-top: 30px;
+    margin-right: 15px;
+    width: 260px;
+    float: left;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-item{
+    overflow: visible;
+    position: relative;
+    display: block;
+}
+.product-item{
+    border: 1px solid #f1f1f1;
+    padding:0px;
+    position: relative;
+}
+
+.pack-title  h3 a{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    line-height: 22px;
+}
+
+.price-bracket{
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 15%);
+    background: #fff;
+    padding: 0 20px;
+    height: 40px;
+    transition: all 0.5s ease 0s;
+    line-height: 40px;
+    white-space: nowrap; 
+}
+.title-price{
+    line-height: 40px;
+    
+}
+.product-price-bracket{
+    color:#e4b95b;
+    font-size: 15px;
+}
+.quitrinh-left{
+    background: #7a5c3d;
+    height:426px;
+    width: calc(100% + 50px);
+    margin-left: 0px;
+    z-index: 9;
+    position: relative;
+    border-radius: 10px;
+}
+.quitrinh-left h2 {
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Quicksand, sans-serif;
+    line-height: 1.4;
+    padding-top: 40px;
+    margin-left: 40px;
+    
+}
+.quitrinh-left p {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 40px;
+    width: 380px;
+    line-height: 24px;
+    
+}
+.quitrinh-left  a button{
+    border: 2px solid #fff;
+    min-width: 170px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    border-radius: 25px;
+    line-height: 34px;
+    padding: 0 35px;
+    margin-left: 40px;
+    background-color:transparent;
+    color: #fff;
+    position: absolute;
+    
+}
+.img-quitrinh {
+    position: absolute;
+    display: inline-block;
+    right:10px;
+    bottom: 50px;
+}
+.title-news h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: #e4b95b;
+}
+.title-news p{
+    color:#555;
+    font-size: 16px;
+    max-width: 660px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-news h2 {
+    padding: 20px 0px;
+}
+.owl-item-1{
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.bolg-img a {
+    border-radius: 0px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    max-height: 180px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bolg-img a img {
+    object-fit: cover;
+    min-height: 180px;
+    width: 100%;
+    height: 100%;
+}
+.outside{
+    display: block;
+}
+.content-bolg {
+    padding: 5px 5px;
+    margin: 0px 5px;
+}
+.content-bolg h4 {
+    font-weight: 700;
+    height: 22px;
+    
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+  
+}
+.time {
+    background-color: #e4b95b;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.bg-7{
+    background-image: url('/IMG/bg-section-danhgia.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 496px;
+    background-repeat: no-repeat;
+    width:auto;
+    position: relative;
+}  
